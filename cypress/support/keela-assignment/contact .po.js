@@ -1,0 +1,21 @@
+export class contactPage{
+    static addContact  =() => cy.get('[data-tracking-button="contacts-add-contact"]')
+    static fname =()=> cy.get('[id="KFfdMfbifgmuJDQ5J"]')
+    static  phone=()=> cy.get('[id="inputPassword4"]')
+    static company =()=> cy.get('[id="company"]')
+    static houseHold =()=>  cy.get('[id="websitename"]')
+    static assigne =()=>  cy.get('[name="country"]')
+    static lname =()=> cy.get('[id="HzRCBfTTQWsuPC9Kw"]')
+    static email =()=>  cy.get('[id="aANviim7vLeoKwpEE"]')
+    static phone =()=>  cy.get('[id="inputAddress2"]')
+    static dob =()=>  cy.get('[id="inputState"]')
+    static addressOne =()=>  cy.get('[id=inputZip]')
+    static addressTwo =()=> cy.get('[type="submit"]')
+    static saveButton =()=> cy.get('[type="submit"]')
+    static selectTable =() => cy.get('[class="table table-vcenter js-table-checkable m-0"]')
+    static editButton =() => cy.get('[class="btn btn-sm btn-dual"]')
+    static actionDropdown =() => cy.get('[id="vKajZjMXQAxbRdxvw"]')
+    static deleteContains =() => cy.get('[id="swal2-content"]')
+    static conformDelete =() => cy.get('[class="swal2-confirm swal2-styled"]')
+
+}
